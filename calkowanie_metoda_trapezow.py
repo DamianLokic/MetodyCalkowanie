@@ -6,7 +6,7 @@ n = 6
 h = (b-a) / n
 result = 0
 
-for i in range(1, n-1):
+for i in range(1, 2 * n):
     x = a + (i / n) * (b - a)
     result += math.sin((x / 2) + 0.1) / (2.2 + math.sqrt(0.7 * math.pow(x, 2) + 1.4))
 
